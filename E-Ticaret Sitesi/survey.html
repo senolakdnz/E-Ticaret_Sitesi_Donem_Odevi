@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamester - Survey</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="collection.css">
+    <script src="jquery.js"></script>
+
+    <header id="header">
+        <div class="header">
+            <div class="basket">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-plus-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5z"/>
+                  </svg>
+            </div>
+            <div id="clock">
+                <div id="time">
+                    <div><span id="hour"></span></div>
+                    <div><span id="minute"></span></div>
+                    <div><span id="second"></span></div>
+                </div>
+            </div>
+                <div class="header-navbar">
+                    <div class="header-logo">GAMESTER</div>
+                        <div class="header-menu">
+                            <ul>
+                                <li><a href="gamester.html">HOME</a></li>
+                                <li><a href="categories.html">CATEGORIES</a></li>
+                                <li><a href="campaing.html">CAMPAIGNS</a></li>
+                                <li><a href="collection.html">COLLECTIONS</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="survey.js"></script>
+    
+    <form>
+        <table class="table1">
+            <tr>
+                <th>
+                    <div class="form-question">
+                        <div class="text">
+                            <label>Name :</label>
+                        </div>
+                    </div>
+                    <th>
+                        <input type="text" id="name" placeholder="Name">
+                    </th>
+                </th>
+                <th>
+                    <div class="form-question">
+                        <div class="text">
+                            <label>Surname :</label>
+                        </div>
+                    </div>
+                    <th>
+                        <input type="text" id="surname" placeholder="Surname">
+                    </th>
+                </th>
+                <th>
+                    <div class="form-question">
+                        <div class="text">
+                            <label>e-Mail :</label>
+                        </div>
+                    </div>
+                    <th>
+                        <input type="text" id="email" placeholder="E-Mail">
+                    </th>
+                </th>
+            </tr>
+        </table>
+
+        <table class="table2">
+            <tr>
+                <th class="title">Questions</th>
+                <th class="title">1</th>
+                <th class="title">2</th>
+                <th class="title">3</th>
+                <th class="title">4</th>
+                <th class="title">5</th>
+            </tr>
+
+            <tr>
+                <td class="question">- Are you satisfied with the quality of the game you purchased from our site? (1: Very dissatisfied, 5: Very satisfied)</td>
+                <td><input type="radio" name="reply"></td>
+                <td><input type="radio" name="reply"></td>
+                <td><input type="radio" name="reply"></td>
+                <td><input type="radio" name="reply"></td>
+                <td><input type="radio" name="reply"></td>
+            </tr>
+
+            <tr>
+                <td class="question">- Are the game variety and prices on our site suitable for you? (1: Not at all suitable, 5: Very suitable)</td>
+                <td><input type="radio" name="reply1"></td>
+                <td><input type="radio" name="reply1"></td>
+                <td><input type="radio" name="reply1"></td>
+                <td><input type="radio" name="reply1"></td>
+                <td><input type="radio" name="reply1"></td>
+            </tr>
+
+            <tr>
+                <td class="question">- Are the payment processes on our site easy for you? (1: Not easy at all, 5: Very easy)</td>
+                <td><input type="radio" name="reply2"></td>
+                <td><input type="radio" name="reply2"></td>
+                <td><input type="radio" name="reply2"></td>
+                <td><input type="radio" name="reply2"></td>
+                <td><input type="radio" name="reply2"></td>
+            </tr>
+
+            <tr>
+                <td class="question">- Are the customer service and support team on our site sufficient and relevant for you? (1: Not at all adequate and relevant, 5: Very sufficient and relevant)</td>
+                <td><input type="radio" name="reply3"></td>
+                <td><input type="radio" name="reply3"></td>
+                <td><input type="radio" name="reply3"></td>
+                <td><input type="radio" name="reply3"></td>
+                <td><input type="radio" name="reply3"></td>
+            </tr>
+
+            <tr>
+                <td class="question">- Do you plan to purchase games from our site again? (1: I definitely do not think so, 5: I definitely think so)</td>
+                <td><input type="radio" name="reply4"></td>
+                <td><input type="radio" name="reply4"></td>
+                <td><input type="radio" name="reply4"></td>
+                <td><input type="radio" name="reply4"></td>
+                <td><input type="radio" name="reply4"></td>
+            </tr>
+        </table>
+        <div class="send">
+            <button class="btn" type="submit">Send</button>
+        </div>
+    </form>
+
+    <hr>
+    <div class="footer">
+        <ul>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="survey.html">Customer Satisfaction</a>
+            <a href="#">Safe Shopping Guide</a>
+            <a href="#">Protection of Personal Data</a>
+        </ul>
+    </div>
+</body>
+</html>
